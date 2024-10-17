@@ -1,0 +1,97 @@
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.logoDiv{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.itemDiv{
+    height: 70px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-color: red;
+    height: 60px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.item{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.navigation{
+    background-color: black;
+    height: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.first{
+    margin-top: 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.second{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.third{
+    background-color: rgb(92, 43, 226);
+    height: 300px;
+}
+.first_innerbox{
+    background-color: beige;
+    flex: 2;
+    display: flex;
+}
+.red{
+    background-color: red;
+    flex: 3;
+}
+.blue{
+    background-color: blue;
+    flex: 1;
+}
+.levejsedej{
+    background-color: rgb(19, 80, 92);
+    flex: 1;
+}
+.pravejsedejDiv{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sedej{
+    background-color: rgb(180, 180, 180);
+    height: 90px;
+}
