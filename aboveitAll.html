@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture web</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logoDiv">
+            <a href="#top"><img src="images/mlogo.png" alt="LOGO" height="50px"></a>
+        </div>
+        <div class="menuDiv">
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#news">Novinky</a></li>
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#catalog">Katalog</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="FurnitureShop">
+            <div class="FurnitureShopText"><b>Furniture Shop</b></div>
+            <div class="FurnitureShopSubtext"><b>Pro každého něco máme</b></div>
+        </div>
+        <div class="redBar" id="catalog">
+            <div>
+                <div class="BlackImage">
+                    <img src="images/icon1.png" alt="I">
+                </div>
+                <div class="redBarText">
+                    <p>Lorem ipsum is ismply dummy text of the printing and typesetting
+                        industry, Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="BlackImage">
+                    <img src="images/icon2.png" alt="I">
+                </div>
+                <div class="redBarText">
+                    <p>Lorem ipsum is ismply dummy text of the printing and typesetting
+                        industry, Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="BlackImage">
+                    <img src="images/icon3.png" alt="I">
+                </div>
+                <div class="redBarText">
+                    <p>Lorem ipsum is ismply dummy text of the printing and typesetting
+                        industry, Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="novinkyText" id="news">
+            Novinky
+        </div>
+        <div class="mainContent">
+            <div class="mainContentItems">
+                <div class="ContentRow">
+                    <div class="ContentRowItem">
+                        <div class="img"><img src="images/bed3.jpg" alt=""></div>
+                        <div class="contentTextDiv">
+                            <div class="contentTextLorem"><b>Lorem Ipsum</b></div>
+                            <div class="contentTextText">
+                                <p>
+                                    publishing packages and web page use Lorem Ipsum as their default model text,
+                                    and search Lorem Ipsum has been the industry's standard dummy text ver
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ContentRowItem">
+                        <div class="img"><img src="images/c6.jpg" alt=""></div>
+                        <div class="contentTextDiv">
+                            <div class="contentTextLorem"><b>Lorem Ipsum</b></div>
+                            <div class="contentTextText">
+                                <p>
+                                    publishing packages and web page use Lorem Ipsum as their default model text,
+                                    and search Lorem Ipsum has been the industry's standard dummy text ver
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ContentRow2">
+                    <div class="contentTextDiv">
+                        <div class="contentTextLorem"><b>Lorem Ipsum</b></div>
+                        <div class="contentTextText">
+                            <p>
+                                publishing packages and web page use Lorem Ipsum as their default model text,
+                                and search Lorem Ipsum has been the industry's standard dummy text ver
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img"><img src="images/sofa2.jpg" alt=""></div>
+                    <div class="contentTextDiv">
+                        <div class="contentTextLorem"><b>Lorem Ipsum</b></div>
+                        <div class="contentTextText">
+                            <p>
+                                publishing packages and web page use Lorem Ipsum as their default model text,
+                                and search Lorem Ipsum has been the industry's standard dummy text ver
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img"><img src="images/rack1.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <article class="aboutUsDiv" id="about">
+            <div class="aboutUsImage"><img src="images/about.jpg" alt="about"></div>
+            <div class="aboutUsTextDiv">
+                <div class="aboutUsTextAboutUs">O nás</div>
+                <div class="aboutUsTextLoremIpsum"><p>publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search web page editors now use
+                    Lorem Ipsum publishing packages and web page editors now use Lorem Ipsum as thier default model text,
+                </p></div>
+                <div class="aboutUsTextMore"><a href="#vice"><p>Více  >></p></a></div>
+            </div>
+        </article>
+    </main>
+    <footer class="contactDiv">
+        <div class="contactText">Kontakt</div>
+        <div class="contactContent">
+            <address class="address"><b>Adresa</b>
+                <p>Litvnínovská 600
+                    <br>
+                    Praha 9
+                    <br>
+                    190 00
+                    <br><br>
+                    www.sssvt.cz
+                    <br>
+                    sssvt@sssvt.cz
+                </p>
+            </address>
+            <div class="contactForm" id="contact">
+                <b>Kontaktní formulář</b>
+                <form action="odeslat.php" method="post">
+                    <label for="formular-input">
+                        <input id="formular-input" type="text" value="Zadejte své jméno">        
+                        <br>
+                        <input id="formular-input" type="text" value="Zadejte zprávu">        
+                    </label>
+                    <div class="buttonDiv">
+                        <button type="submit">Odeslat</button>
+                    </div>
+                </form>
+            </div>
+            <section class="linksDiv"><b>Odkazy</b>
+                <div class="links">
+                    <ul>
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#news">Novinky</a></li>
+                        <li><a href="#about">O nás</a></li>
+                        <li><a href="#catalog">Katalog</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
